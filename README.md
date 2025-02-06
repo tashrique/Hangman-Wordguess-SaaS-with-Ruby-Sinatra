@@ -1,57 +1,41 @@
-Wordguesser: a scaffolded (!) ESaaS getting-started assignment
-=============================================================
+# Hangman - A Sinatra Web App
 
-(v1.1, September 2015.  Written by Armando Fox and Nick Herson)
-(some edits by mverdicchio 21 September 2015)
-(refinements by Armando Fox September 2017)
+Welcome to **Hangman**, a simple yet engaging word-guessing game built using **Ruby Sinatra** and deployed on **Heroku**. Test your vocabulary and guessing skills by playing online!
 
-In this assignment you'll be introduced to part of the basic cycle of creating SaaS in a disciplined way.
+## 🎮 Play Now
+Try the game live on Heroku:
+👉 [**Play Hangman Now!**](https://dry-island-19916-e90dfaa085ca.herokuapp.com/new)
 
-**NOTE: Do not clone this repo to your workspace. Fork it first, then clone your fork.**
+## 📌 How to Play
+1. Start a new game, and a random word will be chosen.
+2. Guess letters one by one.
+3. You have a limited number of incorrect guesses before losing.
+4. Win by guessing all letters correctly before running out of attempts!
 
+## 🚀 Features
+✅ Interactive word-guessing gameplay  
+✅ Tracks incorrect guesses and remaining attempts  
+✅ Simple and user-friendly web interface  
+✅ Deployed and accessible online via Heroku  
 
+## 🛠 Tech Stack
+- **Backend**: Ruby (Sinatra)
+- **Frontend**: HTML, CSS, JavaScript (for UI enhancements)
+- **Testing**: RSpec, Cucumber (TDD approach)
+- **Deployment**: Heroku
 
-Learning Goals
---------------
-After completing this assignment, you will be able to:
+## 🏗 How I Built It
+This project was developed using a **Test-Driven Development (TDD)** approach. I utilized **RSpec** for unit testing and **Cucumber** for behavior-driven development (BDD). The process involved:
+- Writing failing tests first.
+- Implementing game logic to pass those tests.
+- Using Sinatra to expose the functionality as a web app.
+- Refining the UI for a seamless experience.
+- Deploying and managing the app on Heroku.
 
-* Create and deploy simple SaaS apps in your development environment, and deploy them to the public cloud
-* Practice the basic workflow of test-driven development (TDD), in which tests are written before the code (so they fail when first run) and code is then added to make them pass
-* Understand how SaaS frameworks such as Sinatra support the conceptual components of a three-tier SaaS application architecture
-* Understand the challenges of adapting a non-SaaS application to a SaaS environment, including how to identify and manage application state
-* Understand one use case of service-oriented architecture, in which your SaaS app relies on an external service's API (application programming interface) to provide part of the SaaS app's functionality.
+Through this experience, I gained a deeper understanding of TDD, RESTful thinking, and the integration of SaaS concepts in a Ruby environment.
 
-Prerequisites
--------------
-* You should be familiar with Ruby basics, for example by completing the Ruby Intro or Ruby Calisthenics assignment.
-* You should have read [ESaaS](http://www.saasbook.info) Chapter 2, "The Architecture of SaaS Applications", and watched the accompanying videos in the [MOOC](http://www.saas-class.org).
-* You should be comfortable with basic Git usage and how to push your code to GitHub, as described in Appendix A of [ESaaS](http://www.saasbook.info).
-* You will need "survival level" Unix command-line skills and facility with an editor to edit code files.
+## 📢 Feedback
+Enjoying the game? Found a bug? Feel free to [open an issue](https://github.com/tashrique/Hangman-Wordguess-SaaS-with-Ruby-Sinatra/issues) or share your thoughts!
 
-**NOTE: You may find the [Sinatra documentation](https://sinatrarb.com) helpful to have on hand.**
-
-Introduction
-------------
-The full Agile/XP cycle we follow in ESaaS includes talking to the customer, using BDD to develop scenarios, turning those scenarios into runnable integration/acceptance tests with Cucumber, using those scenarios plus TDD to drive the creation of actual code, and deploying the result of each iteration's work to the cloud.
-
-In this introductory assignment, we've provided RSpec unit tests to let you use TDD to develop game logic for a word-guessing game.  In the full Agile/XP cycle, you'd develop these tests yourself as you code.
-
-You'll then use the Sinatra framework to make the Wordguesser game available as SaaS. Adapting the game logic for SaaS will introduce you to thinking about RESTful routes and service-oriented architecture. As you develop the "SaaS-ified" Wordguessing game, you'll use Cucumber to describe how gameplay will work from the player's point of view and as "full stack" integration tests that will drive SaaS development.  In the full Agile/XP cycle, you'd develop Cucumber scenarios yourself based on consultation with the customer, and create the necessary *step definitions* (Cucumber code that turns plain-English scenarios into runnable tests).  In this assignment we provide both the scenarios and step definitions for you.
-
-You'll deploy your game to the cloud using Heroku, giving you experience in automating SaaS deployment.
-
-**Why Sinatra?** 
-
-This assignment uses the simple [Sinatra](https://github.com/sinatra/sinatra) framework rather than Rails, so that you can focus on tools, mechanics, and SaaS concepts, all of which will readily map to Rails later.  Since our app doesn't have a database and has very few functions, Sinatra is an easy way to get started.
-
-Contents
----------
-
-* Part 0: [Demystifying SaaS app creation](docs/part_0_create_saas_app.md)
-* Part 1: [Wordguesser](docs/part_1_wordguesser.md)
-* Part 2: [RESTful thinking for Wordguesser](docs/part_2_restful_thinking.md)
-* Part 3: [Connecting WordGuesserGame to Sinatra](docs/part_3_connecting_wordguesser_to_sinatra.md)
-* Part 4: [Introducing Cucumber](docs/part_4_cucumber.md)
-* Part 5: [Corner Cases](docs/part_5_corner_cases.md)
-* Part 6: [Conclusion](docs/part_6_conclusion.md)
-* Part 7: [Optional Challenge Assignment](docs/part_7_optional_challenge.md)
+---
+🔗 **Follow for Updates**: [GitHub Repository](https://github.com/tashrique/Hangman-Wordguess-SaaS-with-Ruby-Sinatra)
