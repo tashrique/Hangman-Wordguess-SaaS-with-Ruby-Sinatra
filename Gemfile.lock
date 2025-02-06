@@ -109,6 +109,7 @@ GEM
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
     nenv (0.3.0)
+    nio4r (2.7.4)
     nokogiri (1.18.2-aarch64-linux-gnu)
       racc (~> 1.4)
     nokogiri (1.18.2-aarch64-linux-musl)
@@ -140,6 +141,8 @@ GEM
       date
       stringio
     public_suffix (6.0.1)
+    puma (6.6.0)
+      nio4r (~> 2.0)
     racc (1.8.1)
     rack (2.2.10)
     rack-protection (3.2.0)
@@ -226,6 +229,8 @@ DEPENDENCIES
   guard-rspec (~> 4.7)
   launchy (~> 2.5)
   minitest-autotest (~> 1.1)
+  puma
+  rack
   rack-test (~> 2.1)
   rack_session_access (~> 0.2)
   rerun (~> 0.14)
