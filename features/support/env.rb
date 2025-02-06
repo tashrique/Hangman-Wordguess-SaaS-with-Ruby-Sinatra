@@ -10,7 +10,7 @@ require 'capybara'
 require 'capybara/cucumber'
 require 'rspec'
 require 'rack_session_access'
-require 'byebug'
+require 'debug'
 
 Capybara.app = WordGuesserApp
 Capybara.app.configure do |app|

@@ -5,6 +5,7 @@ gem 'sinatra', '~> 3.0'
 gem 'sinatra-flash', '~> 0.3.0'
 gem 'puma'
 gem 'rack'
+gem 'webrick'
 
 group :development, :test do
   gem 'cucumber', '~> 9.0'
@@ -25,6 +26,4 @@ group :development, :test do
   gem 'guard', '~> 2.18'
   gem 'guard-rspec', '~> 4.7'
   gem 'minitest-autotest', '~> 1.1'
-
-  gem 'webrick'
 end
