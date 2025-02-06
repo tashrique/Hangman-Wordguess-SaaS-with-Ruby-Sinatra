@@ -3,6 +3,8 @@ ruby '3.4.1'
 
 gem 'sinatra', '~> 3.0'
 gem 'sinatra-flash', '~> 0.3.0'
+gem 'puma'
+gem 'rack'
 
 group :development, :test do
   gem 'cucumber', '~> 9.0'
